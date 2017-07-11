@@ -1,3 +1,4 @@
+
 /* Acá van tus estilos */
 
 
@@ -91,5 +92,49 @@ hr{
 		color: #484848;
 		font-size: 20px;
 	}
+*{
+	box-sizing: border-box;
+	font-family: 'Gudea', sans-serif;
+}
+section{
+	background-color: #F7F2E0;
+}
+.box-project{
+	background-color: white;
+	border: 10px solid #F7F2E0;
+	padding: 10px;
+}
+.box-project span, i{
+	color:#BDBDBD;
+	margin: 5px;
 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.box-project:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #6E6E6E;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1.2em;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
