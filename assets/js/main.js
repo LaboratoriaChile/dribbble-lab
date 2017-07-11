@@ -4,8 +4,8 @@ $(document).ready(function() {
 			data.forEach(function(e){
 				var titulo = e.title;
 				console.log(titulo);
-				$(".addp").append("<h2 class='name'>"+titulo+"</h2><img src='"+e.images.normal+"'>")
-			})
+				$(".addp").append("<div class='caja-blanca'><img src='"+e.images.normal+"'><br><i class='fa fa-eye' aria-hidden='true'></i>"+e.views_count+"<i class='fa fa-comment' aria-hidden='true'></i>"+e.comments_count+"<i class='fa fa-heart' aria-hidden='true'></i>"+e.likes_count+"</div>")
+			});
 
 	});
 	var userName = function (data){
