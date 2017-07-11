@@ -3,7 +3,8 @@
 
 /* colores perfil 
 verde: #7bbb5e;
-gris: #b3a59b;
+gris tipografia: #b3a59b;
+gris fonfo: #f4f4f4;
 negro: #000000;
 */
 /* Estilo perfil */
@@ -12,9 +13,14 @@ negro: #000000;
 	margin: 0 auto;
 	padding: 0 auto;
 }
+.container-fluid{
+	background-color: #f4f4f4;
+}
 #perfil{
-	background-color:red;
+	background-color:white;
 	padding: 0;
+	margin-left: 50px;
+	border-radius: 4px;
 }
 .h5-perfil{
 	color:#b3a59b;
@@ -55,5 +61,9 @@ negro: #000000;
 */
 
 .fa{
-
+ color: #b3a59b;
+ font-size: 20px;
+}
+.sobre{
+	color: white;
 }
