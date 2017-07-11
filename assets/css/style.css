@@ -9,25 +9,34 @@ negro: #000000;
 /* Estilo perfil */
 *{
 	font-family: 'Gudea', sans-serif;
+	text-align: center;
 }
 ./*nombre div principal*/{
 	background-color:withe;
 }
 
 img { /*para hacer circular la imagen*/
-    border-radius: 50%;
+    border-radius: 50px;
 }
 
-.boton-hire{ 
-    border-radius: 10%;
-    background-color: #7bbb5e; /*color verde*/
+#boton-hire{ 
+    border-radius: 4px;
+    background-color: #7bbb5e;
+    border-style: none;
+    color: white;
+    height: 30px;
+    width: 100px;
+
 }
-/*botones skills*/ {
+/*botones skills {
 	background-color: transparent;
 	border-color: #b3a59b;
-	border-radius: 10%;
+	border-radius: 10px;
 }
-
+*/
 .h5-perfil{
 	color:#b3a59b;
+}
+.fa{
+
 }
