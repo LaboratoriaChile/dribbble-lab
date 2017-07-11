@@ -1,1 +1,12 @@
 /* Acá van tus estilos */
+body{
+	background-color: #eee;
+}
+.box{
+	margin: 20px;
+	background-color: white;
+	color: gray;
+}
+.contadores{
+	float: right;
+}
