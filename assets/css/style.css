@@ -117,6 +117,7 @@ ul.redes{
 	color: #7bbb5d;
 }
 
+
 /* OVERLAY  - EFECTO HOVER */ 
 
 .overlay {
@@ -132,7 +133,7 @@ ul.redes{
   background-color: #008CBA;
 }
 
-.container:hover .overlay {
+.caja-blanca:hover .overlay {
   opacity: 1;
 }
 
