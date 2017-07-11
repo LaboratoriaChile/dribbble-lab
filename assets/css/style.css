@@ -167,9 +167,11 @@ body{
 	margin: 5px 48px;
 }
 
-.sidebar{
-  background-color: white;
-  border-radius: 50px;
+.sidebar {
+    background-color: white;
+    border-radius: 50px;
+    -moz-box-shadow: -1px 3px 43px -13px rgba(0,0,0,0.99);
+    box-shadow: -1px 3px 43px -13px rgba(0,0,0,0.99);
 }
 .profile-titulousuario{
 	margin: 5px 0;
@@ -313,8 +315,15 @@ position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
 
-
+.box {
+    margin: 20px;
+    background-color: white;
+    color: #ccc;
+    -webkit-box-shadow: -1px 3px 43px -13px rgba(0,0,0,0.99);
+    -moz-box-shadow: -1px 3px 43px -13px rgba(0,0,0,0.99);
+    box-shadow: -1px 3px 43px -13px rgba(0,0,0,0.99);
 }
 
 
