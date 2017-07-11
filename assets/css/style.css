@@ -24,28 +24,29 @@ negro: #000000;
 }
 .h5-perfil{
 	color:#b3a59b;
+	font-size: 22px;
 }
 
 .primera-parte{
-    text-align: center;
+	text-align: center;
 	padding: 10px 30px;
 }
-	.img-perfil{ 
-	    border-radius: 50px; /*para hacer circular la imagen ajustar los px*/
-	    text-align: center;
-	}
+.img-perfil{ 
+	border-radius: 50px; /*para hacer circular la imagen ajustar los px*/
+	text-align: center;
+}
 
-	#boton-hire{ 
-	    border-radius: 4px;
-	    background-color: #7bbb5e;
-	    border-style: none;
-	    color: white;
-	    height: 30px;
-	    width: 100px;
-	}
-	.sobre{
+#boton-hire{ 
+	border-radius: 4px;
+	background-color: #7bbb5e;
+	border-style: none;
 	color: white;
-	}
+	height: 30px;
+	width: 100px;
+}
+#sobre{
+	color: white;
+}
 
 .segunda-parte{
 	padding: 10px 30px;
@@ -54,10 +55,17 @@ negro: #000000;
 .tercera-parte{
 	padding: 10px 30px;
 }
-	.fa{
-	 color: #b3a59b;
-	 font-size: 20px;
-	}
+.fa{
+	color: #b3a59b;
+	font-size: 20px;
+}
+.botones-skills{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 6px;
+    background-color: transparent;
+    margin: 5px;
+}
 
 
 /*botones skills {
