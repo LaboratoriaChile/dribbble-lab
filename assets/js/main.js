@@ -4,8 +4,9 @@ $(document).ready(function() {
 			data.forEach(function(e){
 				var titulo = e.title;
 				console.log(titulo);
-				$(".addp").append("<h2 class='name'>"+titulo+"</h2>")
+				$(".addp").append("<h2 class='name'>"+titulo+"</h2><img src='"+e.images.normal+"'>")
 			})
+
 	});
 	var userName = function (data){
 		
@@ -15,12 +16,3 @@ $(document).ready(function() {
 	}
 	
 });
-
-var addLikes = function(array){
-
-	array.forEach(function(e){
-		var titulo = e.title;
-		$(".addp").append('<div class="name">'+titulo+'</div>')
-	})
-
-};
