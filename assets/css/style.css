@@ -43,6 +43,9 @@ negro: #000000;
 	    height: 30px;
 	    width: 100px;
 	}
+	.sobre{
+	color: white;
+	}
 
 .segunda-parte{
 	padding: 10px 30px;
@@ -51,6 +54,10 @@ negro: #000000;
 .tercera-parte{
 	padding: 10px 30px;
 }
+	.fa{
+	 color: #b3a59b;
+	 font-size: 20px;
+	}
 
 
 /*botones skills {
@@ -60,10 +67,3 @@ negro: #000000;
 }
 */
 
-.fa{
- color: #b3a59b;
- font-size: 20px;
-}
-.sobre{
-	color: white;
-}
