@@ -120,8 +120,10 @@ body{
 
 
 /* Estilos Header*/
-#header{ 
-    padding: 10px;
+#header {
+    /* padding: 10px; */
+    padding-bottom: -7px;
+    background-color: #fbfbfb;
     border-bottom: solid thin silver;
 }
 .contadores-header{
@@ -145,10 +147,14 @@ body{
 .alinear{
     display: inline-block;
 }
-.color-link{
+.color-link {
     color: silver;
     border: solid thin silver;
     border-radius: 5px;
+    padding-bottom: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .color-link li a{
     padding: 8px;
@@ -216,7 +222,7 @@ button.follow{
 }
 
 button.follow:hover{
-	color: #7bbb5d;
+	color: #444444;
 }
 
 button.btn-setting{
@@ -225,11 +231,11 @@ button.btn-setting{
 }
 
 button.btn-setting:hover{
-	color: #7bbb5d;
+	color: #444444;
 }
 
 .dropdown-menu li a:hover{
-	color: #7bbb5d;
+	color: #444444;
 	transition: 0.5s;
 	background-color: transparent;
 }
@@ -251,7 +257,7 @@ button.btn-skills{
 }
 
 button.btn-skills:hover{
-	color: #7bbb5d;
+	color: #444444;
 }
 
 #else{
@@ -282,7 +288,7 @@ ul.redes{
 }
 
 .redes i:hover{
-	color: #7bbb5d;
+	color:#444444;
 
 }
 
