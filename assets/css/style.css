@@ -1,3 +1,33 @@
 /* Acá van tus estilos */
 
+
+/* colores perfil 
+verde: #7bbb5e;
+gris: #b3a59b;
+negro: #000000;
+*/
 /* Estilo perfil */
+*{
+	font-family: 'Gudea', sans-serif;
+}
+./*nombre div principal*/{
+	background-color:withe;
+}
+
+img { /*para hacer circular la imagen*/
+    border-radius: 50%;
+}
+
+.boton-hire{ 
+    border-radius: 10%;
+    background-color: #7bbb5e; /*color verde*/
+}
+/*botones skills*/ {
+	background-color: transparent;
+	border-color: #b3a59b;
+	border-radius: 10%;
+}
+
+.h5-perfil{
+	color:#b3a59b;
+}
