@@ -180,7 +180,10 @@ ul.redes{
 
 }
 
+
+
 /* OVERLAY - EFECTO HOVER */ 
+
 
 .overlay {
   position: absolute;
@@ -195,7 +198,7 @@ ul.redes{
   background-color: #008CBA;
 }
 
-.container:hover .overlay {
+.caja-blanca:hover .overlay {
   opacity: 1;
 }
 
