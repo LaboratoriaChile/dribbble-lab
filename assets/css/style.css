@@ -1,4 +1,66 @@
-/* Acá van tus estilos */
+
+ /* Acá van tus estilos */
+body{
+  background-color: #eee;
+}
+.box{
+  margin: 20px;
+  background-color: white;
+  color: #ccc;
+}
+.contadores{
+  float: right;
+  margin-bottom: 5px;
+  display: inline-flex;
+}
+
+.cont{
+  padding-right: 5px;
+}
+
+
+
+/* Estilos Header*/
+#header{ 
+    padding: 10px;
+    border-bottom: solid thin silver;
+}
+.contadores-header{
+    padding-top: 10px;
+}
+#contadores-header{
+    font-weight: bolder;
+}
+#contadores-header p{
+    display: inline-block;
+    padding: 0 5px;
+}
+#contadores-header span{
+    color: silver;
+}
+.more{
+    border: none;
+    padding: 2px;
+    font-weight: bolder;
+}
+.alinear{
+    display: inline-block;
+}
+.color-link{
+    color: silver;
+    border: solid thin silver;
+    border-radius: 5px;
+}
+.color-link li a{
+    padding: 8px;
+    color:silver;
+}
+.color-link li a:hover{
+    background-color: white;
+}
+/*fin estilos Header*/
+
+/*sidebar*/
 .profile-userpic img{
 	border-radius: 50%;
 	height: 100px;
@@ -119,7 +181,9 @@ ul.redes{
 }
 
 
-/* OVERLAY  - EFECTO HOVER */ 
+
+/* OVERLAY - EFECTO HOVER */ 
+
 
 .overlay {
   position: absolute;
@@ -149,3 +213,5 @@ ul.redes{
 
 
 }
+
+
