@@ -1,4 +1,24 @@
 
+ /* Acá van tus estilos */
+body{
+  background-color: #eee;
+}
+.box{
+  margin: 20px;
+  background-color: white;
+  color: #ccc;
+}
+.contadores{
+  float: right;
+  margin-bottom: 5px;
+  display: inline-flex;
+}
+
+.cont{
+  padding-right: 5px;
+}
+
+
 
 /* Estilos Header*/
 #header{ 
@@ -201,4 +221,5 @@ ul.redes{
 
 
 }
+
 
