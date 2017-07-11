@@ -1,10 +1,8 @@
+
+/*aca va js*/
+
 $(document).ready(function() {
-
-
-
-
-
-	/*var user = 'RypeArts';
+  /*var user = 'RypeArts';
 	var token = 'a94cc9a5cdd89d403fe031a7173778db76ebd7ed8d919fbc2efc33371723ecea';
 
 
@@ -68,6 +66,7 @@ var addLikes = function(array){
 	})
 
 };
+
 
 
 

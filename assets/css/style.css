@@ -1,3 +1,56 @@
+
+
+/* Estilos Header*/
+#header{ 
+	padding: 10px;
+	border-bottom: solid thin silver;
+}
+
+.contadores{
+	padding-top: 10px;
+}
+
+#contadores{
+	font-weight: bolder;
+}
+
+#contadores p{
+	display: inline-block;
+	padding: 0 5px;
+}
+
+#contadores span{
+	color: silver;
+}
+
+.more{
+	border: none;
+	padding: 2px;
+	font-weight: bolder;
+}
+
+.alinear{
+	display: inline-block;
+
+}
+
+.color-link{
+	color: silver;
+	border: solid thin silver;
+	border-radius: 5px;
+}
+
+.color-link li a{
+	padding: 8px;
+	color:silver;
+}
+
+.color-link li a:hover{
+	background-color: white;
+}
+
+/*fin estilos Header*/
+=======
 /* Acá van tus estilos */
 .profile-userpic img{
 	border-radius: 50%;
@@ -148,3 +201,4 @@ ul.redes{
 
 
 }
+
