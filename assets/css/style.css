@@ -40,3 +40,13 @@ ul {
     width: auto;
 
 }
+
+.links {
+    right: 171px;
+    font-size: 13px;
+    bottom: 17px;
+}
+
+.link-footer{
+	margin-top: 5px;
+}
