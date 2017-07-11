@@ -1,1 +1,57 @@
 /* Acá van tus estilos */
+
+
+.navbar-inverse{
+	background-color: #333333;
+}
+.logo{
+	color: whitesmoke;
+	font-family: 'Sacramento', cursive;
+	font-size: 2em;
+	padding: 1em;
+}
+
+.logo:hover{
+	color:#A5A5A5;
+}
+
+.dropdown-nav{
+	background-color: #333333;
+}
+.navbar-brand h2 {
+	color: whitesmoke;
+	margin: 0;
+}
+.search-box {
+    float: right;
+}
+.search-box .icon {
+    margin: 0 2% 0 0;
+    font-size: 16px;
+    color: #777;
+}
+#search {
+    width: 85%;
+    padding: 2px 5px;
+}
+.search-box input {
+	border-radius: 5px;
+	border: none;
+}
+.navbar-header {
+    min-height: 55px;
+}
+.caja-navegacion{
+	border:3px solid #044343;
+	height: 60vh;
+	background-color: #00AAA0;
+}
+.caja-navegacion ul li a{
+	color: whitesmoke;
+	font-size: 2rem;
+}
+
+/*input .buscador {
+  background-position : 0;
+  background-image: url(../img/icon-search-7a07ad9f258fc1d8c28a29faa5627b41c2cc353d138b6bc3e987e0719584ce69.png);
+  } */
