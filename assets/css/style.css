@@ -1,1 +1,6 @@
 /* Acá van tus estilos */
+body {
+	/*background-color: black;*/
+	margin: 0 auto;
+	padding: 0;
+}
