@@ -9,8 +9,10 @@ $(document).ready(function() {
 		dataType: 'json',
 		
 	})
-	.done(function() {
+	.done(function(respuesta) {
 		console.log("success");
+		console.log(respuesta)
+		addLikes(respuesta.results)
 	})
 	.fail(function() {
 		console.log("error");
@@ -20,3 +22,13 @@ $(document).ready(function() {
 	});
 	
 });
+
+var addLikes = function(array){
+
+	array.forEach(function(e){
+		var titulo = e.title;
+		$(".addp").append('<div class="name">'+titulo+'</div>')
+	})
+
+};
+
