@@ -1,1 +1,42 @@
 /* Acá van tus estilos */
+/*footer*/
+footer{
+	color: #adadad;
+}
+
+.social{
+	color:#adadad;
+
+}
+
+.social:hover{
+	color:#444444;
+
+}
+
+p{
+	font-size: 13px;
+}
+
+a {
+    padding: 5px;
+    list-style: none;
+    color:#adadad;
+}
+
+a:hover{
+	color:#444444;
+}
+
+ul {
+    padding: 18px;
+    list-style: none;
+    padding-left: 45px;
+}
+
+
+.footer-mod{
+	 float: none;
+    width: auto;
+
+}
