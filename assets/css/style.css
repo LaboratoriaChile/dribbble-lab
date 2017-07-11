@@ -9,34 +9,51 @@ negro: #000000;
 /* Estilo perfil */
 *{
 	font-family: 'Gudea', sans-serif;
-	text-align: center;
+	margin: 0 auto;
+	padding: 0 auto;
 }
-./*nombre div principal*/{
-	background-color:withe;
+#perfil{
+	background-color:red;
+	padding: 0;
+}
+.h5-perfil{
+	color:#b3a59b;
 }
 
-img { /*para hacer circular la imagen*/
-    border-radius: 50px;
+.primera-parte{
+    text-align: center;
+	padding: 10px 30px;
+}
+	.img-perfil{ 
+	    border-radius: 50px; /*para hacer circular la imagen ajustar los px*/
+	    text-align: center;
+	}
+
+	#boton-hire{ 
+	    border-radius: 4px;
+	    background-color: #7bbb5e;
+	    border-style: none;
+	    color: white;
+	    height: 30px;
+	    width: 100px;
+	}
+
+.segunda-parte{
+	padding: 10px 30px;
 }
 
-#boton-hire{ 
-    border-radius: 4px;
-    background-color: #7bbb5e;
-    border-style: none;
-    color: white;
-    height: 30px;
-    width: 100px;
-
+.tercera-parte{
+	padding: 10px 30px;
 }
+
+
 /*botones skills {
 	background-color: transparent;
 	border-color: #b3a59b;
 	border-radius: 10px;
 }
 */
-.h5-perfil{
-	color:#b3a59b;
-}
+
 .fa{
 
 }
