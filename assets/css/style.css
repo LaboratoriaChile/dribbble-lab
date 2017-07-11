@@ -167,6 +167,10 @@ body{
 	margin: 5px 48px;
 }
 
+.sidebar{
+  background-color: white;
+  border-radius: 50px;
+}
 .profile-titulousuario{
 	margin: 5px 0;
 }
@@ -271,7 +275,7 @@ ul.redes{
 
 .redes i{
 	color: #6D6D6D;
-	font-size: 15px;
+
 }
 
 .redes i:hover{
