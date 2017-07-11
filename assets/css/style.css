@@ -1,1 +1,140 @@
+
 /* Acá van tus estilos */
+
+
+/* colores perfil 
+verde: #7bbb5e;
+gris tipografia: #b3a59b;
+gris fonfo: #f4f4f4;
+negro: #000000;
+celeste hover texto: #3a9ad3;
+gris hover fa: #484848;
+*/
+/* Estilo perfil */
+*{
+	font-family: 'Gudea', sans-serif;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.container-fluid{
+	background-color: #f4f4f4;
+}
+#perfil{
+	background-color:white;
+	padding: 0;
+	margin-left: 50px;
+	border-radius: 4px;
+}
+.h5-perfil{
+	color:#b3a59b;
+	font-size: 16px;
+}
+hr{ 
+    margin: 0;
+}
+
+.primera-parte{
+	text-align: center;
+	padding: 10px 30px;
+}
+	.img-perfil{ 
+		border-radius: 50px; /*para hacer circular la imagen ajustar los px*/
+		text-align: center;
+		width: 100px;
+		height: 100px;
+	}
+
+	#boton-hire{ 
+		border-radius: 4px;
+		background-color: #7bbb5e;
+		border-style: none;
+		color: white;
+		height: 30px;
+		width: 100px;
+	}
+	#sobre{
+		color: white;
+	}
+	.cuidad{
+		color: #b3a59b;
+	}
+	.cuidad:hover{
+		color: #000000;
+	}
+
+.segunda-parte{
+	padding: 10px 30px;
+}
+	.botones-skills{
+		border: 1px solid #b3a59b;
+		border-radius: 5px;
+		padding: 3px;
+	    background-color: transparent;
+	    margin: 5px;
+	}
+	.botones-skills:hover{
+		border: 1px solid #b3a59b;
+		border-radius: 5px;
+		padding: 3px;
+	    background-color: transparent;
+	    margin: 5px;
+	    color: #3a9ad3;
+	}
+
+.tercera-parte{
+	padding: 10px 30px;
+}
+	.fa{
+		color: #b3a59b;
+		font-size: 20px;
+	}
+	.fa:hover{
+		color: #484848;
+		font-size: 20px;
+	}
+*{
+	box-sizing: border-box;
+	font-family: 'Gudea', sans-serif;
+}
+section{
+	background-color: #F7F2E0;
+}
+.box-project{
+	background-color: white;
+	border: 10px solid #F7F2E0;
+	padding: 10px;
+}
+.box-project span, i{
+	color:#BDBDBD;
+	margin: 5px;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.box-project:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #6E6E6E;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1.2em;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
