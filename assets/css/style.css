@@ -1,18 +1,18 @@
-/* Acá van tus estilos */
+ /* Acá van tus estilos */
 body{
-	background-color: #eee;
+  background-color: #eee;
 }
 .box{
-	margin: 20px;
-	background-color: white;
-	color: #ccc;
+  margin: 20px;
+  background-color: white;
+  color: #ccc;
 }
 .contadores{
-	float: right;
-	margin-bottom: 5px;
-	display: inline-flex;
+  float: right;
+  margin-bottom: 5px;
+  display: inline-flex;
 }
 
 .cont{
-	padding-right: 5px;
+  padding-right: 5px;
 }
