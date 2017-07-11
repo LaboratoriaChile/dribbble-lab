@@ -60,7 +60,7 @@ body{
 }
 /*fin estilos Header*/
 
-/* Acá van tus estilos */
+/*sidebar*/
 .profile-userpic img{
 	border-radius: 50%;
 	height: 100px;
@@ -180,7 +180,7 @@ ul.redes{
 
 }
 
-/* OVERLAY  - EFECTO HOVER */ 
+/* OVERLAY - EFECTO HOVER */ 
 
 .overlay {
   position: absolute;
