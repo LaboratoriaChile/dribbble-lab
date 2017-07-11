@@ -1,4 +1,5 @@
 
+
 /* Estilos Header*/
 #header{ 
 	padding: 10px;
@@ -49,3 +50,155 @@
 }
 
 /*fin estilos Header*/
+=======
+/* Acá van tus estilos */
+.profile-userpic img{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	margin: 5px 48px;
+}
+
+.profile-titulousuario{
+	margin: 5px 0;
+}
+
+.profile-titulousuario a{
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+
+.profile-titulousuario a:hover{
+	color: #7bbb5d;
+}
+
+/*.titulousuario-name a{
+	font-size: 20px;
+}*/
+
+.profile-user button{
+	border: 4px;
+	padding: 5px 5px;
+	margin: 0 3px;
+	border-radius: 5px;
+}
+
+button.hire{
+	background-color: #7bbb5d;
+	color: whitesmoke;
+	font-weight: 600;
+}
+
+button.hire:hover{
+	color: #8B8686;
+}
+
+button.follow{
+	background-color: #D3C8C8;
+	color: #8B8686;
+	font-weight: 600;
+}
+
+button.follow:hover{
+	color: #7bbb5d;
+}
+
+button.btn-setting{
+	background-color: #D3C8C8;
+	color: #ACA8A8;	
+}
+
+button.btn-setting:hover{
+	color: #7bbb5d;
+}
+
+.dropdown-menu li a:hover{
+	color: #7bbb5d;
+	transition: 0.5s;
+	background-color: transparent;
+}
+
+#sk{
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #C8C5C5;
+}
+
+button.btn-skills{
+	padding: 3px 5px;
+	border: 1px solid black;
+	margin: 0 1px;
+	border-radius: 5px;
+	background-color: transparent;
+	color: #8B8686;
+	font-weight: 600;
+}
+
+button.btn-skills:hover{
+	color: #7bbb5d;
+}
+
+#else{
+	text-transform: uppercase;
+	color: #C8C5C5;
+	font-weight: 600;
+}
+
+ul.redes{
+	margin: 0;
+	padding: 0;
+}
+
+.redes li{
+	list-style: none;
+}
+
+.redes li a {
+    display: block;
+    padding: 7px 3px;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.redes i{
+	color: #6D6D6D;
+	font-size: 15px;
+}
+
+.redes i:hover{
+	color: #7bbb5d;
+
+}
+
+/* OVERLAY  - EFECTO HOVER */ 
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  width: 40%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+
+}
+
