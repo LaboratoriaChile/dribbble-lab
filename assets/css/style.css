@@ -1,1 +1,130 @@
 /* Acá van tus estilos */
+body {
+	background-color: #f4f4f4;
+	margin: 0 auto;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+/*portafolio*/
+.portafolio {
+}
+.thumbnail {
+    display: inline-block;
+    max-width: 30%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.port {
+	display: inline;
+}
+
+/*PERFIL USUARIO*/
+
+.titulo{
+    color:#444;
+    font-weight: bold;
+}
+
+.profesion{
+    color:#444;
+    font-size: 15px;
+}
+
+.location{
+    color:#999;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#btn-hire{
+    background-color: #31BC27;
+    border:none;
+    color:white;
+    padding: 8px;
+    font-weight: bold;
+    margin-left: 33px;
+
+}
+
+.icon-hire{
+    font-size: 20px !important;
+    padding-right: 5px;
+}
+
+.icon-setting{
+    font-size:20px !important;
+    color: #999;
+}
+
+#btn-follow{
+    color:#444;
+    padding: 8px;
+}
+
+#dropdown-perfil{
+    padding: 8px;
+}
+
+.skills h5,
+.elsewhere-redes h5{
+    color: #999;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.skills-web,
+.skills-ui,
+.skills-ux,
+.skills-mobile,
+.skills-app{
+    text-decoration: none !important;
+    display: inline-block;
+    margin: 0 4px 8px 0;
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    color: #444;
+    border-radius: 4px;
+}
+
+.icon-red{
+    color: #999;
+    font-size: 25px !important;
+    padding-right: 10px;
+
+}
+
+.twitter,
+.facebook,
+.instagram,
+.github,
+.linkedin,
+.vimeo{
+    text-decoration: none !important;
+    display: inline-block;
+    margin: 0 4px 8px 0;
+    color: #444;
+    font-size: 15px !important;
+    padding-top: 3px !important;
+}
+
+#perfil-usuario #perfil{
+    background-color: white;
+    padding: 25px;
+
+}
+
+.container{
+    background-color: grey;
+}

@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1281px) {
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	.thumbnail {
+    max-width: 50%;
+	}
+
+}
+@media only screen and (min-width: 1px) and (max-width: 480px) {
+	.thumbnail {
+    max-width: 100%;
+	}
+}
+

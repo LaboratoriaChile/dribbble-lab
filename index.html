@@ -1,1 +1,86 @@
 <!-- Acá va tu HTML -->
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DRIBBBLE-LAB</title>
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet">
+	<!--Fontawesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- CDN Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/media.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+	<!-- coni -->
+	<nav></nav>
+</header>
+<section>
+	<!-- pauli perfil -->
+	<div id="perfil-usuario">
+		<div class="container">
+			<div class="row perfil">
+				<div class="col-xs-3 col-md-3 col-sm-3 col-lg-3" id="perfil">
+
+					<div class="row">
+						<div class="col-md-offset-4 col-xs-3 col-md-3 col-sm-3 col-lg-3" >
+							<img src="assets/img/perfil-usuario.png" alt="" class="img-circle">
+						</div>
+					</div>
+
+					<h3 class="titulo text-center">Eduardo Santos</h3>
+					<h4 class="location text-center">Portugal</h4>
+					<h5 class="profesion text-center">User Interface Designer</h5>
+					<hr>
+					
+					<button class="btn btn-default" type="button" id="btn-hire"><i class="fa fa-envelope icon-hire" aria-hidden="true"></i>Hire Me</button>
+	                <button class="btn btn-default" type="button" id="btn-follow">Follow</button>
+	                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown-perfil">
+    					<i class="fa fa-cog icon-setting" aria-hidden="true"></i>
+    					<span class="caret"></span>
+    				</button>
+    				<hr>
+
+					<div class="skills">
+    					<h5 class="skills">SKILLS</h5>
+    						<a href="#" class="skills-web">web</a>
+    						<a href="#" class="skills-ui">ui</a>
+    						<a href="#" class="skills-ux">ux</a>
+    						<a href="#" class="skills-mobile">mobile</a>
+    						<a href="#" class="skills-app">app</a>
+    				</div>
+    				<hr>
+
+    				<div class="elsewhere-redes">
+    					<h5 class="elsewhere">ELSEWHERE</h5>
+    						<a href="#" class="twitter"><i class="fa fa-twitter icon-red" aria-hidden="true"></i>Twitter</a><br>
+    						<a href="#" class="facebook"><i class="fa fa-facebook-official icon-red" aria-hidden="true"></i>Facebook</a><br>
+    						<a href="#" class="instagram"><i class="fa fa-instagram icon-red" aria-hidden="true"></i>Instagram</a><br>
+    						<a href="#" class="github"><i class="fa fa-github icon-red" aria-hidden="true"></i>GitHub</a><br>
+    						<a href="#" class="linkedin"><i class="fa fa-linkedin-square icon-red" aria-hidden="true"></i>Linkedin</a><br>
+    						<a href="#" class="vimeo"><i class="fa fa-vimeo icon-red" aria-hidden="true"></i>Vimeo</a><br>
+    				</div>
+    			</div>
+	  		</div>
+		</div>	
+	</div>
+
+	<!-- camila rangi api -->
+	<div id="portafolio" class="col-xs-6 col-sm-6 col-md-9 col-lg-9 portafolio"><ul id="dribbble"></ul></div>
+</section>
+<!-- maca footer -->
+<footer></footer>
+<!-- JAVASCRIPT es preferible como ultima linea en el body -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
