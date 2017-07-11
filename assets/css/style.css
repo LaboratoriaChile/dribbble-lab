@@ -6,6 +6,8 @@ verde: #7bbb5e;
 gris tipografia: #b3a59b;
 gris fonfo: #f4f4f4;
 negro: #000000;
+celeste hover texto: #3a9ad3;
+gris hover fa: #484848;
 */
 /* Estilo perfil */
 *{
@@ -24,54 +26,70 @@ negro: #000000;
 }
 .h5-perfil{
 	color:#b3a59b;
-	font-size: 22px;
+	font-size: 16px;
+}
+hr{ 
+    margin: 0;
 }
 
 .primera-parte{
 	text-align: center;
 	padding: 10px 30px;
 }
-.img-perfil{ 
-	border-radius: 50px; /*para hacer circular la imagen ajustar los px*/
-	text-align: center;
-}
+	.img-perfil{ 
+		border-radius: 50px; /*para hacer circular la imagen ajustar los px*/
+		text-align: center;
+		width: 100px;
+		height: 100px;
+	}
 
-#boton-hire{ 
-	border-radius: 4px;
-	background-color: #7bbb5e;
-	border-style: none;
-	color: white;
-	height: 30px;
-	width: 100px;
-}
-#sobre{
-	color: white;
-}
+	#boton-hire{ 
+		border-radius: 4px;
+		background-color: #7bbb5e;
+		border-style: none;
+		color: white;
+		height: 30px;
+		width: 100px;
+	}
+	#sobre{
+		color: white;
+	}
+	.cuidad{
+		color: #b3a59b;
+	}
+	.cuidad:hover{
+		color: #000000;
+	}
 
 .segunda-parte{
 	padding: 10px 30px;
 }
+	.botones-skills{
+		border: 1px solid #b3a59b;
+		border-radius: 5px;
+		padding: 3px;
+	    background-color: transparent;
+	    margin: 5px;
+	}
+	.botones-skills:hover{
+		border: 1px solid #b3a59b;
+		border-radius: 5px;
+		padding: 3px;
+	    background-color: transparent;
+	    margin: 5px;
+	    color: #3a9ad3;
+	}
 
 .tercera-parte{
 	padding: 10px 30px;
 }
-.fa{
-	color: #b3a59b;
-	font-size: 20px;
-}
-.botones-skills{
-	border: 1px solid black;
-	border-radius: 5px;
-	padding: 6px;
-    background-color: transparent;
-    margin: 5px;
-}
+	.fa{
+		color: #b3a59b;
+		font-size: 20px;
+	}
+	.fa:hover{
+		color: #484848;
+		font-size: 20px;
+	}
 
-
-/*botones skills {
-	background-color: transparent;
-	border-color: #b3a59b;
-	border-radius: 10px;
-}
-*/
 
