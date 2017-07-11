@@ -1,1 +1,28 @@
 /* Acá van tus estilos */
+#header{
+	padding: 10px;
+	border-bottom: solid thin silver;
+}
+
+#contadores{
+	font-weight: bolder;
+}
+
+#contadores p{
+	display: inline-block;
+	padding: 0 5px;
+}
+
+#contadores span{
+	color: silver;
+}
+
+.more{
+	border: none;
+	padding: 2px;
+}
+
+.alinear{
+	display: inline-block;
+
+}
