@@ -1,5 +1,103 @@
 
- /* Acá van tus estilos */
+/*footer*/
+body{
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #adadad;
+
+}
+
+.social{
+	color:#adadad;
+
+
+}
+
+.social:hover{
+	color:#444444;
+
+}
+
+.parrafo{
+	font-size: 13px;
+}
+
+a {
+    padding: 5px;
+    list-style: none;
+    color:#adadad;
+}
+
+a:hover{
+	color:#444444;
+    text-decoration: none;
+}
+
+ul {
+    padding: 18px;
+    list-style: none;
+    padding-left: 45px;
+}
+
+
+.footer-mod{
+	 float: none;
+    width: auto;
+
+}
+.links {
+    right: 94px;
+    font-size: 13px;
+    bottom: 17px;
+}
+
+.link-footer{
+	margin-top: 5px;
+}
+
+.jobs {
+    right: 49px;
+    bottom: 4px;
+}
+
+.flow{
+	right: 10px;
+}
+
+.pelota {
+    left: 80px;
+}
+
+.numeral{
+    color:black;
+    font-size: 20px;
+}
+
+.sociales {
+    left: 20px;
+    padding-right: 0px;
+}
+
+.azul{
+    color:#87b9d5;
+}
+
+.text-job {
+    padding-left: 45px;
+    padding-bottom: -28px;
+    margin-top: -13px;
+}
+
+.holiday{
+    bottom: 20px;
+}
+
 body{
   background-color: #eee;
 }
@@ -213,5 +311,6 @@ position: absolute;
 
 
 }
+
 
 
