@@ -1,1 +1,5 @@
 /* Acá van tus estilos */
+input .buscador {
+  background-position : 0;
+  background-image: url(../img/icon-search-7a07ad9f258fc1d8c28a29faa5627b41c2cc353d138b6bc3e987e0719584ce69.png);
+  }
