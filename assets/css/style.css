@@ -1,337 +1,70 @@
-
-/*footer*/
-body{
-    overflow-x: hidden;
-    margin: 0px;
-    padding: 0px;
+/*estilos navbar*/
+.navbar-inverse{
+    background-color: #333333;
 }
 
-footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: #adadad;
-}
-.footer{
-  background-color: white;
-}
-.social{
-	color:#adadad;
-
-
+.logo-nav:hover{
+    color:white;
 }
 
-.social:hover{
-	color:#444444;
-
-}
-
-.parrafo{
-	font-size: 13px;
-}
-
-a {
-    padding: 5px;
-    list-style: none;
-    color:#adadad;
-}
-
-a:hover{
-	color:#444444;
-    text-decoration: none;
-}
-
-ul {
-    padding: 18px;
-    list-style: none;
-    padding-left: 45px;
-}
-
-
-.footer-mod{
-	 float: none;
-    width: auto;
-
-}
-.links {
-    right: 94px;
-    font-size: 13px;
-    bottom: 17px;
-}
-
-.link-footer{
-	margin-top: 5px;
-}
-
-.jobs {
-    right: 49px;
-    bottom: 4px;
-}
-
-.flow{
-	right: 10px;
-}
-
-.pelota {
-    left: 80px;
-}
-
-.numeral{
-    color:black;
-    font-size: 20px;
-}
-
-.sociales {
-    left: 20px;
-    padding-right: 0px;
-}
-
-.azul{
-    color:#87b9d5;
-}
-
-.text-job {
-    padding-left: 45px;
-    padding-bottom: -28px;
-    margin-top: -13px;
-}
-
-.holiday{
-    bottom: 20px;
-}
-
-body{
-  background-color: #eee;
-}
-.box{
-  margin: 20px;
-  background-color: white;
-  color: #ccc;
-}
-.contadores{
-  float: right;
-  margin-bottom: 5px;
-  display: inline-flex;
-}
-
-.cont{
-  padding-right: 5px;
-}
-
-
-
-/* Estilos Header*/
-#header {
-    /* padding: 10px; */
-    padding-bottom: -7px;
-    background-color: #fbfbfb;
-    border-bottom: solid thin silver;
-}
-.contadores-header{
-    padding-top: 10px;
-}
-#contadores-header{
-    font-weight: bolder;
-}
-#contadores-header p{
-    display: inline-block;
-    padding: 0 5px;
-}
-#contadores-header span{
-    color: silver;
-}
-.more{
-    border: none;
-    padding: 2px;
-    font-weight: bolder;
-}
-.alinear{
-    display: inline-block;
-}
-.color-link {
-    color: silver;
-    border: solid thin silver;
-    border-radius: 5px;
-    padding-bottom: 0px;
-    padding: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.color-link li a{
-    padding: 8px;
-    color:silver;
-}
-.color-link li a:hover{
-    background-color: white;
-}
-/*fin estilos Header*/
-
-/*sidebar*/
-.profile-userpic img{
-	border-radius: 50%;
-	height: 100px;
-	width: 100px;
-	margin: 5px 48px;
-}
-
-.sidebar {
-  margin-top: 17px;
-    background-color: white;
-    border-radius: 20px;
-    -moz-box-shadow: -1px 3px 43px -13px rgba(0,0,0,0.99);
-    box-shadow: -1px 3px 43px -13px rgba(0,0,0,0.99);
-}
-.profile-titulousuario{
-	margin: 5px 0;
-}
-
-.profile-titulousuario a{
-	text-decoration: none;
-	color: black;
-	font-weight: 600;
-}
-
-.profile-titulousuario a:hover{
-	color: #7bbb5d;
-}
-
-/*.titulousuario-name a{
-	font-size: 20px;
-}*/
-
-.profile-user button{
-	border: 4px;
-	padding: 5px 5px;
-	margin: 0 3px;
-	border-radius: 5px;
-}
-
-button.hire{
-	background-color: #7bbb5d;
-	color: whitesmoke;
-	font-weight: 600;
-}
-
-button.hire:hover{
-	color: #8B8686;
-}
-
-button.follow{
-	background-color: #D3C8C8;
-	color: #8B8686;
-	font-weight: 600;
-}
-
-button.follow:hover{
-	color: #444444;
-}
-
-button.btn-setting{
-	background-color: #D3C8C8;
-	color: #ACA8A8;	
-}
-
-button.btn-setting:hover{
-	color: #444444;
-}
-
-.dropdown-menu li a:hover{
-	color: #444444;
-	transition: 0.5s;
-	background-color: transparent;
-}
-
-#sk{
-	text-transform: uppercase;
-	font-weight: 600;
-	color: #C8C5C5;
-}
-
-button.btn-skills{
-	padding: 3px 5px;
-	border: 1px solid black;
-	margin: 0 1px;
-	border-radius: 5px;
-	background-color: transparent;
-	color: #8B8686;
-	font-weight: 600;
-}
-
-button.btn-skills:hover{
-	color: #444444;
-}
-
-#else{
-	text-transform: uppercase;
-	color: #C8C5C5;
-	font-weight: 600;
-}
-
-ul.redes{
-	margin: 0;
-	padding: 0;
-}
-
-.redes li{
-	list-style: none;
-}
-
-.redes li a {
+.navbar-brand>img {
     display: block;
-    padding: 7px 3px;
-    text-decoration: none;
-    margin: 5px 0;
+    width: 96px;
+    padding-top: 0px;
+}
+input.search-text {
+    width: 190px;
+    padding: 5px 5px 5px 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    vertical-align: middle;
+    color: #bbb;
+    border: none;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 7px 50%;
+        background-size: 20px;
+    background-image: url(../img/lupa.png);
+    border-radius: 4px;
+
 }
 
-.redes i{
-	color: #6D6D6D;
 
+.dropdown-nav{
+    background-color: #333333;
 }
-
-.redes i:hover{
-	color:#444444;
-
+.navbar-brand h2 {
+    color: whitesmoke;
+    margin: 0;
 }
-
-
-
-/* OVERLAY - EFECTO HOVER */ 
-
-
-.overlay {
-position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #ecf0f1;
+.search-box {
+    float: right;
 }
-
-.box:hover .overlay {
-  opacity: 1;
+.search-box .icon {
+    margin: 0 2% 0 0;
+    font-size: 16px;
+    color: #777;
 }
-
-.text {
-  color: black;
-  font-size: 13px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+#search {
+    width: 85%;
+    padding: 2px 5px;
 }
-
-.box {
-    margin: 20px;
-    background-color: white;
-    color: #ccc;
-    -webkit-box-shadow: -1px 3px 43px -13px rgba(0,0,0,0.99);
-    -moz-box-shadow: -1px 3px 43px -13px rgba(0,0,0,0.99);
-    box-shadow: -1px 3px 43px -13px rgba(0,0,0,0.99);
+.search-box input {
+    border-radius: 5px;
+    border: none;
 }
-
+.navbar-header {
+    min-height: 55px;
+}
+.caja-navegacion{
+    border:3px solid #044343;
+    height: 60vh;
+    background-color: #00AAA0;
+}
+.caja-navegacion ul li a{
+    color: whitesmoke;
+    font-size: 2rem;
+}
 
 
