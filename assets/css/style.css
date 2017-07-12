@@ -1,1 +1,366 @@
 /* Acá van tus estilos */
+body {
+	background-color: #f4f4f4;
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+ul, li {
+	list-style: none;
+}
+.botonera:hover{
+	color: white;
+}
+.navbar{
+	color: white;
+	height: 60px;
+	background: rgba(47, 47, 47,0.98);
+	margin: 0 auto;
+	padding: 0;
+}
+.navbar:hover .botonera{
+	color: white;
+}
+.dropdown-toggle{
+	color: white;
+}
+.logo{
+	color: white;
+	padding: 16px;
+	width: 133px;
+	margin: -1px;
+}
+.pin{
+	color: white;
+	margin-top: 20px;
+}
+/*desplegable*/
+.menu{
+	margin-top: 1em;
+	background-color: #fff;
+	width: 10em;
+	overflow: hidden;
+	height: 0;
+	transition: all 2.0s ease;
+}
+.menu li{
+	list-style: none;
+	padding: 0.6em 1em;
+}
+.menu a{
+	text-decoration: none;
+	color: #333;
+}
+.menu a:hover {
+	color: #696969;
+}
+.open-hide{
+	width: 35px;
+	height: 35px;
+	display: block;
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/6001/menu.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -9999em;
+}
+.open-hide:hover{
+	cursor: pointer;
+}
+.show{
+	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/6001/clave.svg");
+	background-size: 20px;
+}
+.show + .menu{
+	height: 500px;
+}
+/*fin hamburguesa*/
+#inputs{
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	margin: 0;
+}
+/*portafolio*/
+.portafolio {
+}
+.thumbnail {
+}
+.port {
+	display: inline-block;
+	max-width: 30%;
+	height: auto;
+	padding-bottom: 5%;
+	margin-top: 2%;
+	margin-bottom: 8%;
+	margin-left: 3%;
+	background-color: red;
+	line-height: 1.42857143;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.view-icon, .coment-icon, .like-icon{
+	margin-left: 20px;
+}
+.icon-port{
+	margin-top: 5px;
+	margin-left: 60px;
+}
+/*PERFIL USUARIO*/
+.titulo{
+	color:#444;
+	font-weight: bold;
+}
+.profesion{
+	color:#444;
+	font-size: 15px;
+}
+.location{
+	color:#999;
+	font-size: 15px;
+	font-weight: 400;
+}
+#btn-hire{
+	background-color: #31BC27;
+	border:none;
+	padding: 8px;
+	font-weight: bold;
+	margin-left: 35%;
+}
+.hire-me{
+	color: #fff;
+}
+.icon-hire{
+	font-size: 20px !important;
+	padding-right: 5px;
+}
+.icon-setting{
+	font-size:20px !important;
+	color: #999;
+}
+#btn-follow{
+	color:#444;
+	padding: 8px;
+}
+#dropdown-perfil{
+	padding: 8px;
+}
+.skills h5,
+.elsewhere-redes h5{
+	color: #999;
+	font-size: 17px;
+	font-weight: bold;
+}
+.skills-ilu,
+.skills-icon,
+.skills-charac,
+.skills-chad,
+.skills-vector,
+.skills-camping,
+.skills-adv,
+.skills-edit,
+.skills-ui{
+	text-decoration: none !important;
+	display: inline-block;
+	margin: 0 4px 8px 0;
+	padding: 6px 8px;
+	border: 1px solid #ddd;
+	color: #444;
+	border-radius: 4px;
+}
+.elsewhere-redes h5{
+	color: #999;
+	font-size: 17px;
+	font-weight: bold;
+}
+.icon-red{
+	color: #999;
+	font-size: 25px !important;
+	padding-right: 10px;
+}
+.web,
+.twitter,
+.instagram,
+.behance{
+	text-decoration: none !important;
+	display: inline-block;
+	margin: 0 4px 8px 0;
+	color: #444;
+	font-size: 15px !important;
+	padding-top: 3px !important;
+}
+
+#perfil-usuario #perfil{
+	background-color: white;
+	padding: 25px;
+}
+.container{
+	/*background-color: grey;*/
+}
+/* Footer Maca */
+.textFooter{
+	color: #a1a1a1;
+}
+a, li{
+	text-decoration: none;
+	color: #a1a1a1;
+	list-style: none;
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+/* 1 */
+footer{
+	background-color: #fff;
+}
+.cajitaFooter1{
+	padding: 2%;
+    background-color: #fff;
+}
+.logoFooter{
+	height: 20px;
+}
+.textFooter, .titFooter1, .textFooterH4{
+	font-size: 15px;
+}
+.linksFooter1{
+	font-size: 12px;
+	padding-top: 10px;
+}
+.cajitaFooter1a, .cajitaFooter1b{
+	padding: 2%;
+}
+.textFooterH4{
+	color: lightblue;
+	padding: 0;
+	margin: 0;
+}
+.textFooterH4Top{
+	padding-top: 5%;
+}
+.logoFooterSize{
+	width: 80px;
+	padding: 0;
+}
+.cajaFlowFooter{
+	padding-top: 27px;
+}
+.textFooterPUltimoLogo{
+	font-size: 16px;
+	padding-right: 15%;
+}
+.iconosRSS{
+	font-size: 27px;
+	padding-left: 2%;
+	padding-bottom: 3%;
+}
+.textFooter2{
+	font-size: 12px;
+}
+.parteFooterDerech{
+	margin-left: 40%;
+}
+.textFooter2Num{
+	padding: 0;
+}
+.tituloFootFinal{
+	font-size: 15px;
+	font-weight: bold;
+}
+.textFooter2Img{
+	padding-left: 50px;
+	font-size: 12px;
+	padding-top: 5%;
+}
+/* Fin Footer */
+/*Kath hover*/
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.overlay {
+	position: relative;
+	top:0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+}
+.port:hover .overlay {
+	opacity: 1;
+}
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	padding: 10px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+/* Footer Responsive */
+.logoFooterRightResponsive{
+	width: 60px;
+	padding-top: 5%;
+	padding-right: 0;
+}
+.textResponsiveCostadoDerec{
+	padding-top: 5%;
+}
+
+.cajitaFooter1bRespons{
+	padding: 0;
+}
+.linksFooter1Respon{
+	font-size: 12px;
+	padding-top: 10px;
+	padding-left: 0;
+}
+.textFooterH4Top{
+	padding-top: 5%;
+}
+.cajaResponlogoflow{
+	padding-left: 5%;
+}
+.logoFooterSizeResponsive{
+	width: 45%;
+	margin-top: 8%;
+}
+.logoFlow{
+	width: 100%;
+    border: 1px solid #ccc;
+    padding: 8%;
+}
+.textFooterPUltimoLogoRespon{
+	font-size: 15px;
+	margin-top: 29%;
+}
+.cajaPelot{
+	padding-left: 10%;
+}
+.cajaFootResPelot{
+	width: 79%;
+	padding-bottom: 15%;
+  padding-top: 1%;
+}
+.cajaResponlogoPelot{
+	padding: 0;
+}
+.iconosRSSrespon{
+	font-size: 27px;
+	padding-left: 3%;
+	padding-bottom: 3%;
+}
+.textFooter2respon{
+	font-size: 15px;
+	padding-bottom: 5%;
+}
+/* Fin Footer */
