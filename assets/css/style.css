@@ -1,1 +1,70 @@
-/* Acá van tus estilos */
+/*estilos navbar*/
+.navbar-inverse{
+    background-color: #333333;
+}
+
+.logo-nav:hover{
+    color:white;
+}
+
+.navbar-brand>img {
+    display: block;
+    width: 96px;
+    padding-top: 0px;
+}
+input.search-text {
+    width: 190px;
+    padding: 5px 5px 5px 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    vertical-align: middle;
+    color: #bbb;
+    border: none;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 7px 50%;
+        background-size: 20px;
+    background-image: url(../img/lupa.png);
+    border-radius: 4px;
+
+}
+
+
+.dropdown-nav{
+    background-color: #333333;
+}
+.navbar-brand h2 {
+    color: whitesmoke;
+    margin: 0;
+}
+.search-box {
+    float: right;
+}
+.search-box .icon {
+    margin: 0 2% 0 0;
+    font-size: 16px;
+    color: #777;
+}
+#search {
+    width: 85%;
+    padding: 2px 5px;
+}
+.search-box input {
+    border-radius: 5px;
+    border: none;
+}
+.navbar-header {
+    min-height: 55px;
+}
+.caja-navegacion{
+    border:3px solid #044343;
+    height: 60vh;
+    background-color: #00AAA0;
+}
+.caja-navegacion ul li a{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+
